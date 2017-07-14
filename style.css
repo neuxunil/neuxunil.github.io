@@ -137,7 +137,7 @@ p, h1 {
 
 /* Спрайты */
 .icon {
-  background-position: bottom;
+  background-position: -300px;
   display: inline-block;
   height: 56px;
   width: 58px;
