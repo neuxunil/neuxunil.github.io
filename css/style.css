@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Cuprum', sans-serif;
-    background-image: url(images/39.jpg);
+    background-image: url(../images/39.jpg);
     height: 800px;
 }
 
@@ -141,7 +141,7 @@ p, h1 {
   display: inline-block;
   height: 56px;
   width: 58px;
-  background-image: url(images/social.png);
+  background-image: url(../images/social.png);
 }
 
 .icon.icon-facebook {

@@ -1,0 +1,36 @@
+/* Подключение шрифтов с Google Fonts - Cuprum */
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,400i&subset=cyrillic');
+
+.container {
+  /* Делаем flex элемент */
+  display: flex;
+  height: 500px;
+  background-color: rgba(0, 0, 0, .1);
+  /* Выравнивание контента по горизонтали */
+  justify-content: space-around;
+  /* Выравнивание контента по вертикали */
+  align-items: center;
+  /* Направление элементов */
+  flex-direction: row;
+  /* Многострочность элементов flex-wrap */
+  flex-wrap: wrap;
+  /* Заполнение контента по вертикали */
+  align-content: space-around;
+}
+.item {
+  background-color: #ccc;
+  border: 1px solid red;
+  /* Порядок элементов (свойство order) */
+
+  /*Базовая ширина элемента flex-basis*/
+
+  /* Растяжение элементов flex-grow */
+
+  /* Сужение элементов flex-shrink*/
+
+  /* Выравнивание отдельных элементов align-self */
+}
+.active {
+  background-color: purple;
+  color: #fff;
+}
