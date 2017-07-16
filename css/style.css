@@ -1,161 +1,76 @@
-/* Подключение шрифтов с Google Fonts - Cuprum */
-@import url('https://fonts.googleapis.com/css?family=Cuprum:400,400i&subset=cyrillic');
-
 * {
     margin: 0;
     padding: 0;
-    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Cuprum', sans-serif;
-    background-image: url(../images/39.jpg);
-    height: 800px;
+    font: 100%/1.5em Arial, sans-serif;
+    color: #000;
 }
 
-#navigation {
-    height: 64px;
-    margin-left: 100px;
-    position: fixed;
-    background-color: rgba(80, 20, 20, 0.52);
-    width: 1210px;
-}
-
-#navigation ul li {
-    float: left;
-    list-style-type: none;
-    position: relative;
-}
-
-#navigation ul li a {
-    padding: 0 10px;
-    text-decoration: none;
-    line-height: 64px;
-    display: block;
-    height: 64px;
-}
-
-#navigation ul li a:hover {
-    background: rgba(80, 20, 20, 0.52);
-    text-decoration: underline;
-}
-
-#navigation .dropdown {
-    position: absolute;
-    top: 100%;
-    width: 150px;
-    background-color: #60785E;
-    text-align: center;
-    display: none;
-}
-
-#navigation li:hover .dropdown {
-  display: block;
-}
-
-#navigation .dropdown li {
-    width: 100%;
-    height: 45px;
-}
-
-#navigation .dropdown li a {
-    line-height: 45px;
-    height: 45px;
-}
+/* Flexible media гибкие медиа*/
+article, aside, details, figure, figcaption, footer, header, hgroup, menu, nav, section {display: block;}
 
 img {
-  height: 160px;
+  max-width: 100%;
+  height: auto;
 }
 
-header {
-  height: 160px;
-  display: block;
-  position: absolute;
-  top: 95px;
-  left: 100px;
+.container {
+    background: #e2e2e2;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.search {
-  position: absolute;
-  top: 18px;
-  left: 1000px;
+.container .cols {
+    float: left;
+    margin: 0 0 1em;
+    padding: 0 1em;
+    text-align: center;
 }
 
-input {
-  color: #000000;
+.container .cols.col-1 {width: 8.333333333%;}
+.container .cols.col-2 {width: 16.666666667%;}
+.container .cols.col-3 {width: 25%;}
+.container .cols.col-4 {width: 33.333333333%;}
+.container .cols.col-5 {width: 41.666666667%;}
+.container .cols.col-6 {width: 50%}
+.container .cols.col-7 {width: 58.333333333%;}
+.container .cols.col-8 {width: 66.666666667%;}
+.container .cols.col-9 {width: 75%;}
+.container .cols.col-10 {width: 83.333333333%;}
+.container .cols.col-11 {width: 91.666666667%;}
+.container .cols.col-12 {width: 100%;}
+
+
+.container:before,
+.container:after,
+.row::after,
+.row::before,
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.content {
-  display: block;
-  /* border: 2px solid silver; */
-  position: relative;
-  top: 285px;
-  left: 5%;
-  right: 5%;
-  width: 90%;
-  height: 300px;
+@media screen and (max-width: 480px) {
+    h1 {
+      color:blue;
 }
-
-article {
-  display: block;
-  border: 2px solid silver;
-  margin: 5px;
-  position: absolute;
-  width: 73%;
-  height: 280px;
-}
-
-aside {
-  display: block;
-  border: 2px solid silver;
-  margin: 5px;
-  position: absolute;
-  right: 1%;
-  width: 23%;
-  height: 280px;
-}
-
-.sidebar {
-  list-style: none;
-  padding: 10px;
-  text-align: center;
-}
-
-footer {
-  display: block;
-  border: 2px solid silver;
-  position: absolute;
-  top: 580px;
-  left: 5%;
-  right: 5%;
-  width: 90%;
-}
-
-p, h1 {
-  padding: 10px;
-}
-
-/* Спрайты */
-.icon {
-  top: 1000px;
-  display: inline-block;
-  height: 56px;
-  width: 58px;
-  background-image: url(../images/social.png);
-}
-
-.icon.icon-facebook {
-  background-position: 0 0;
-}
-
-.icon.icon-facebook:hover {
-  background-position: 0 -70px;
-}
-
-.icon.icon-rss {
-  background-position: -62px 0;
-}
-
-.icon.icon-rss:hover {
-  background-position: -62px -70px;
+    .container .cols.col-1,
+    .container .cols.col-2,
+    .container .cols.col-3,
+    .container .cols.col-4,
+    .container .cols.col-5,
+    .container .cols.col-6,
+    .container .cols.col-7,
+    .container .cols.col-8,
+    .container .cols.col-9,
+    .container .cols.col-10,
+    .container .cols.col-11,
+    .container .cols.col-12 {width: 100%;}
 }
