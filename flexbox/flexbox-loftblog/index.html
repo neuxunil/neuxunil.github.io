@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Flexbox на практике</title>
+		<meta charset="utf-8">
+		<style>
+			body{
+				background: #fefefe;
+				margin: 0;
+				padding: 0;
+				font:1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+				color: #272727;
+			}
+			img{
+				margin: 0;
+				padding: 0;
+				vertical-align: middle;
+				border: none;
+			}
+			.main{
+				border: 1px solid #ccc;
+				padding: 20px;
+				background: #fff;
+				border-radius: 3px;
+				max-width: 1000px;
+				margin: 20px auto;
+				/* Flexbox*/
+				display: flex;
+				/* Flexbox- направление главной оси*/
+				flex-direction: row;
+				/* Flexbox - положение flex-элементов на главной оси*/
+				justify-content: center;
+				/* Flexbox - положение flex-элементов на поперечней оси*/
+				align-items: stretch;
+				/* Flexbox - разрешает переносить flex-элементы на новые ряды*/
+				flex-wrap: wrap;
+				/* Flexbox - положение рядов по поперечной оси */
+				align-content: stretch;
+				/* Flexbox - объединяет flex-direction и flex-wrap*/
+				flex-flow: row wrap;
+			}
+			.bl{
+				padding: 5px 10px;
+				margin: 20px;
+				border:1px solid #ddd;
+				background: #fffde1;
+				border-radius: 3px;
+				/* Flexbox - главный размер элемента зависит от главной оси( по горизонтали - ширина,по вертикали - высота) */
+				flex-basis: 200px;
+				/* Flexbox - элементы захватывают свободное пространство, если оно есть*/
+				flex-grow: 1;
+				/* Flexbox - элемент отдает-сужается пространство свободное*/
+				flex-shrink: 1;
+				/* Flexbox - объединяет flex-grow, flex-shrink, flex-basis */
+				flex: 1 1 200px;
+				text-align: center;
+				}
+
+			.fl1{background: #7cd2dd; border-color: #6fbac4; order: 4; /* Flexbox -  порядок элементов */ flex-basis: 300px;}
+			.fl2{background: #95d051; border-color: #85b948; order: 2; flex-basis: 150px;}
+		.fl3{background: #eb9e65; border-color: #cc8a58; order: 1; align-self: ;/* Flexbox -  положение одного flex-элемента на оси*/ flex-basis: 100%;}
+			.fl4{background: #d051d0; border-color: #ba48ba; order: 0; flex-basis: 100%;}
+			.fl5{background: #f2f26e; border-color: #d6d665; order: 5; flex-basis: 300px;}
+			.fl6{background: #eee; border-color: #ccc; order: 3; flex-basis: 400px;}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="main">
+			<div class="bl fl1"><b>ПОДВАЛ-1</b><br> Lorem ipsum dolor sit amet, consectetur adipisi	cing elit. Accusantium, sint et atque ullam reiciendis eveniet animi, quasi fuga architecto totam.</div>
+			<div class="bl fl2"><b>ЛЕВЫЙ САЙДБАР</b><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ipsam excepturi mollitia asperiores. Nihil aliquid asperiores doloremque ea illo id!</div>
+			<div class="bl fl3"><b>МЕНЮ</b><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem atque dicta fuga quam nesciunt voluptatibus vitae, quod mollitia maiores quidem.</div>
+			<div class="bl fl4"><b>ШАПКА</b><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores officia ut repudiandae perspiciatis accusantium expedita, delectus minima voluptas, illo quia.</div>
+			<div class="bl fl5"><b>ПОДВАЛ-2</b><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere amet dolorem blanditiis, itaque temporibus eum quas quibusdam voluptatum tempora fuga.</div>
+			<div class="bl fl6"><b>КОНТЕНТ</b><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo cum impedit earum nostrum qui inventore laborum, quam amet a vitae!</div>
+		</div>
+
+	</body>
+</html>
