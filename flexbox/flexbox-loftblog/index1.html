@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Flexbox на практике</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+				background: #fefefe;
+				margin: 0;
+				padding: 0;
+				font: 1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+				color: #272727;
+			}
+
+			.main {
+				border: 1px solid #ccc;
+				padding: 20px;
+				background: #fff;
+				border-radius: 3px;
+				max-width: 1000px;
+				margin: 20px auto;
+				display: flex;
+				justify-content: center;
+				align-items: stretch;
+				align-content: stretch;
+				flex-flow: row wrap;
+			}
+			.bl {
+				display: flex;
+				flex-flow: row wrap;
+				flex: 1 1 250px;
+				text-align: center;
+				background: #fefefe;
+				padding: 10px;
+				border: 1px solid #ddd;
+				border-radius: 3px;
+				margin: 10px;
+				}
+
+			.fl1 {}
+			.fl2 {}
+			.fl3 {}
+			.fl4 {}
+			.fl5 {}
+			.fl6 {}
+
+				.image img {
+					width: 100%;
+					height: auto;
+				}
+
+				.image {
+					margin: 10px;
+					flex: 1 1 200px;
+				}
+
+				.text {
+					margin: 10px;
+					flex: 1 1 150px;
+				}
+
+				h3 {
+					color: #406cd0;
+					margin: 0 10px 0 0;
+					font-size: 1.1em;
+				}
+
+				a.button {
+					background: #406cd0;
+					color: #fff;
+					padding: 5px 10px;
+					border-radius: 2px;
+					text-decoration: none;
+					transition: 0.3s;
+				}
+
+				a.button:hover {
+					background: #c70000;
+				}
+		</style>
+	</head>
+	<body>
+	<div class="main">
+		<div class="bl fl1">
+			<div class="image"><img src="images/cat1.jpg" alt=""></div>
+			<div class="text">
+				<h3>Lorem ipsum dolor.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+				<a href="#" class="button">Читать далее...</a>
+			</div>
+		</div>
+		<div class="bl fl2">
+			<div class="image"><img src="images/cat2.jpg" alt=""></div>
+			<div class="text">
+				<h3>Assumenda, vel, doloribus?</h3>
+				<p>Quidem alias minima itaque quas earum maiores.</p>
+				<a href="#" class="button">Читать далее...</a>
+			</div>
+		</div>
+		<div class="bl fl3">
+			<div class="image"><img src="images/cat3.jpg" alt=""></div>
+			<div class="text">
+				<h3>Consequatur, iusto, rerum.</h3>
+				<p>Voluptate qui perspiciatis doloremque quidem beatae voluptatum.</p>
+				<a href="#" class="button">Читать далее...</a>
+			</div>
+		</div>
+		<div class="bl fl4">
+			<div class="image"><img src="images/cat4.jpg" alt=""></div>
+			<div class="text">
+				<h3>Totam, laboriosam eveniet.</h3>
+				<p>Doloremque autem illo nulla exercitationem obcaecati deleniti?</p>
+				<a href="#" class="button">Читать далее...</a>
+			</div>
+		</div>
+		<div class="bl fl5">
+			<div class="image"><img src="images/cat5.jpg" alt=""></div>
+			<div class="text">
+				<h3>Perspiciatis, quaerat, doloribus?</h3>
+				<p>Odio animi, et ullam ut dolores alias.</p>
+				<a href="#" class="button">Читать далее...</a>
+			</div>
+		</div>
+		<div class="bl fl6">
+			<div class="image"><img src="images/cat6.jpg" alt=""></div>
+			<div class="text">
+				<h3>Voluptate perspiciatis, itaque.</h3>
+				<p>Expedita eius iste, aut maxime qui non?</p>
+				<a href="#" class="button">Читать далее...</a>
+			</div>
+		</div>
+		</div>
+
+	</body>
+</html>
