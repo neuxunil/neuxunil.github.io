@@ -42,17 +42,17 @@ a {
 /* grid cats */
 
 body {
-  background: #fefefe;
+  background: url("bg.png") repeat;
   margin: 0;
   padding: 0;
-  font: 1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+  font: 1em/1.3em "Open Sans", sans-serif;
   color: #272727;
 }
 
 .main {
   border: 1px solid #ccc;
-  padding: 20px;
   background: #fff;
+  padding: 20px;
   border-radius: 3px;
   max-width: 1000px;
   margin: 20px auto;
@@ -67,7 +67,7 @@ body {
   flex-flow: row wrap;
   flex: 1 1 250px;
   text-align: center;
-  background: #fefefe;
+  background: #D1FFFE;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 3px;
