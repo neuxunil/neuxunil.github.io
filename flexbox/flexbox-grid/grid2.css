@@ -6,6 +6,9 @@ a {
 }
 
 .header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -50,12 +53,13 @@ body {
 }
 
 .main {
+  position: relative;
   border: 1px solid #ccc;
   background: #fff;
   padding: 20px;
   border-radius: 3px;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 80px auto;
   display: flex;
   justify-content: center;
   align-items: stretch;
