@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #689CD2;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header__section {
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  padding: 10px 15px;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.header__item:hover {
+  background-color: #FF9900;
+  border-radius: 4px;
+}
+
+.headerlogo {
+  font-weight: bold;
+}
+
+.headerButton {
+  cursor: pointer;
+}
+
+/* grid cats */
+
+body {
+  background: #fefefe;
+  margin: 0;
+  padding: 0;
+  font: 1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+  color: #272727;
+}
+
+.main {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: #fff;
+  border-radius: 3px;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  flex-flow: row wrap;
+}
+.bl {
+  display: flex;
+  flex-flow: row wrap;
+  flex: 1 1 250px;
+  text-align: center;
+  background: #fefefe;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin: 10px;
+  }
+
+.fl1 {}
+.fl2 {}
+.fl3 {}
+.fl4 {}
+.fl5 {}
+.fl6 {}
+
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .image {
+    margin: 10px;
+    flex: 1 1 200px;
+  }
+
+  .text {
+    margin: 10px;
+    flex: 1 1 150px;
+  }
+
+  h3 {
+    color: #406cd0;
+    margin: 0 10px 0 0;
+    font-size: 1.1em;
+  }
+
+  a.button {
+    background: #406cd0;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  a.button:hover {
+    background: #c70000;
+  }
