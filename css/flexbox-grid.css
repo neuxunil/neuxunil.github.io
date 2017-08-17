@@ -1,0 +1,72 @@
+body {
+  background: #fefefe;
+  margin: 0;
+  padding: 0;
+  font: 1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif;
+  color: #272727;
+}
+
+.main {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: #fff;
+  border-radius: 3px;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.bl {
+  padding: 5px 10px;
+  margin: 20px;
+  border:1px solid #ddd;
+  background: #fffde1;
+  border-radius: 3px;
+  flex-basis: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.fl1 {
+  background: #7cd2dd;
+  border-color: #6fbac4;
+  order: 4;
+  flex-basis: 300px;
+}
+
+.fl2 {
+  background: #95d051;
+  border-color: #85b948;
+  order: 2;
+  flex-basis: 150px;
+}
+
+.fl3 {
+  background: #eb9e65;
+  border-color: #cc8a58;
+  order: 1;
+  align-self: ;
+  flex-basis: 100%;
+}
+
+.fl4 {
+  background: #d051d0;
+  border-color: #ba48ba;
+  order: 0;
+  flex-basis: 100%;
+}
+
+.fl5 {
+  background: #f2f26e;
+  border-color: #d6d665;
+  order: 5;
+  flex-basis: 300px;
+}
+
+.fl6 {
+  background: #eee;
+  border-color: #ccc;
+  order: 3;
+  flex-basis: 400px;
+}

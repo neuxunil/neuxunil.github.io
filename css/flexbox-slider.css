@@ -37,22 +37,22 @@ span {
 }
 
 .item-1 {
-  background: url(1.jpeg) no-repeat center center;
+  background: url(../img/1.jpeg) no-repeat center center;
   background-size: cover;
 }
 
 .item-2 {
-  background: url(2.jpeg) no-repeat center center;
+  background: url(../img/2.jpeg) no-repeat center center;
   background-size: cover;
 }
 
 .item-3 {
-  background: url(3.jpeg) no-repeat center center;
+  background: url(../img/3.jpeg) no-repeat center center;
   background-size: cover;
 }
 
 .item-4 {
-  background: url(4.jpeg) no-repeat center center;
+  background: url(../img/4.jpeg) no-repeat center center;
   background-size: cover;
 }
 
