@@ -7,4 +7,5 @@
     - Используется Bem-naming.
     - Подготовка к интеграции с CMS.
     -Размещение сайта на хостинге.
-<video src="https://www.youtube.com/watch?v=BVMInCrx8aE"></video>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=BVMInCrx8aE" target="_blank"><img src="http://img.youtube.com/vi/BVMInCrx8aE/0.jpg"
+alt="Корпоративный сайт" width="240" height="180" border="10" /></a>
