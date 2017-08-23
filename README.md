@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="readme.css">
 </head>
 <body>
-  <h1>Проекты профессии "Веб-разработчик" от</h1> <div id="loftschool">test</div>
-  <img src="https://loftschool.com/img/logoretina.png">
+  <h1>Проекты профессии "Веб-разработчик" от</h1> <div class="loftschool"><img src="https://loftschool.com/img/logoretina.png"></div>
 </body>
 </html>
