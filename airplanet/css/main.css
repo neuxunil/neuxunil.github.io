@@ -1,1 +1,6 @@
 /* Комментарии CSS*/
+body {
+  background: url(../images/logo-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
