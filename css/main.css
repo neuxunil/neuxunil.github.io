@@ -1,1 +1,13 @@
-/* Комментарии CSS*/
+/* Main page */
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold_1.ttf);
+    src: url(../fonts/Roboto-Light_1.ttf);
+    src: url(../fonts/Roboto-LightItalic_1.ttf);
+}
+
+header {
+  background-color: #1c5bc3;
+  color: #fff;
+}
