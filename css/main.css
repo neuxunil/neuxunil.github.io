@@ -1,18 +1,41 @@
 /* Main page */
 
-@font-face {
-    font-family: "Roboto";
-    src: url(../fonts/Roboto-Bold_1.ttf);
-    src: url(../fonts/Roboto-Light_1.ttf);
-    src: url(../fonts/Roboto-LightItalic_1.ttf);
+.wrapper {
+    border: 3px solid black;
+}
+.container  {
+  border: 2px solid red;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
-header {
-  background-color: #1c5bc3;
-  color: #fff;
+.main_content  {
+  border: 2px solid green;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
-footer {
-  background-color: #1c5bc3;
-  color: #fff;
+nav {
+  border: 2px solid black;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  width: 300px;
+}
+
+.breadcrumbs {
+  border: 2px solid yellow;
+}
+
+.crew_item {
+  border: 2px solid navy;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
