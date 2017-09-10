@@ -51,7 +51,7 @@ a {
 }
 
 a::after {
-  content: "";
+  content: " ";
   background-image: url(../images/sidebar/main-icon.png);
   display: block;
   height: 15px;
