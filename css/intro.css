@@ -50,8 +50,10 @@ a {
   margin: 16px 45px 17px 20px;
 }
 
-/* main_icon */
-.main_icon {
-  width: 15px;
-  height: 14px;
+a::after {
+  content: "";
+  background-image: url(../images/sidebar/main-icon.png);
+  display: block;
+  height: 15px;
+  width: 19px;
 }
