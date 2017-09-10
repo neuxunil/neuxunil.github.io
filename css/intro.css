@@ -1,12 +1,27 @@
-/* Intro page */
+/* Fonts */
 @font-face {
     font-family: "Roboto";
-    src: url(../fonts/Roboto-Bold_1.ttf);
-    src: url(../fonts/Roboto-Light_1.ttf);
-    src: url(../fonts/Roboto-LightItalic_1.ttf);
+    src: url(../fonts/Roboto-Bold_1.ttf) format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light_1.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-LightItalic_1.ttf) format('ttf');
+  font-weight: bold;
+  font-style: italic;
 }
 
 body {
+  font-family: 'Roboto';
   font-size: 16px;
   background: url(../images/logo-background.jpg);
   background-color: rgba(255, 255, 255, 0.6);
