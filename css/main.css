@@ -61,17 +61,8 @@ a {
 
 .breadcrumbs__item {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
-}
-
-.breadcrumbs__item:first-child {
-  color: #1c5bc3;
-  text-decoration: underline;
-}
-
-.breadcrumbs__item:last-child {
-  color: #221f1f;
 }
 
 .breadcrumbs__item:last-child:before {
