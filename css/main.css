@@ -55,23 +55,27 @@ a {
 
 /* ______Breadcrumbs______ */
 
-.breadcrumbs__item:first-child {
-  color: #1c5bc3;
+.breadcrumbs li {
+  display: inline-block;
+}
+
+.breadcrumbs__item {
   font-size: 14px;
   font-weight: 300;
   font-style: italic;
-  text-decoration: underline;
 }
 
-.breadcrumbs__item:last-child:before {
-  content: "/"
+.breadcrumbs__item:first-child {
+  color: #1c5bc3;
+  text-decoration: underline;
 }
 
 .breadcrumbs__item:last-child {
   color: #221f1f;
-  font-size: 14px;
-  font-weight: 300;
-  font-style: italic;
+}
+
+.breadcrumbs__item:last-child:before {
+  content: "/"
 }
 
 /* ______Crew______ */
@@ -126,6 +130,10 @@ a {
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
+}
+
+.socials__list li {
+  display: inline-block;
 }
 
 .socials__item {
