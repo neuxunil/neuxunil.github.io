@@ -28,6 +28,7 @@ a {
   opacity: 0.7;
   color: #ffffff;
   font-size: 14px;
+  text-decoration: underline;
 }
 
 /* ______Navigation_______ */
@@ -41,12 +42,12 @@ a {
   letter-spacing: 2.4px;
 }
 
-.nav__text {
-  display: inline-block;
+.nav__link:hover {
+  color: #221f1f;
 }
 
-.nav__icon:nth-child(2) {
-  background-color: #221f1f;
+.nav__text {
+  display: inline-block;
 }
 
 /* ______Breadcrumbs______ */
