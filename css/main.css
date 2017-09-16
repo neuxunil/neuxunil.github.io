@@ -4,7 +4,7 @@ body {
 font-family: 'Roboto', sans-serif;
 }
 
-ul {
+ul li {
   list-style: none;
 }
 
@@ -41,16 +41,12 @@ a {
   letter-spacing: 2.4px;
 }
 
-.nav__item:nth-child(1) {
-  list-style-image: url(../img/sidebar/main-icon.png);
+.nav__text {
+  display: inline-block;
 }
 
-.nav__item:nth-child(2) {
-  list-style-image: url(../img/sidebar/team-icon.png);
-}
-
-.nav__item:nth-child(3) {
-  list-style-image: url(../img/sidebar/feed-icon.png);
+.nav__icon:nth-child(2) {
+  background-color: #221f1f;
 }
 
 /* ______Breadcrumbs______ */
