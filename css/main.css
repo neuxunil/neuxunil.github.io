@@ -1,4 +1,4 @@
-/* Crew page */
+/* All page */
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -8,9 +8,40 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* Header */
+
 .header {
   background-color: #1c5bc3;
 }
+
+.contacts__phone {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.contacts__desc {
+  opacity: 0.7;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Navigation */
+
+.nav__text {
+  color: #1c5bc3;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px
+}
+
+/* Content */
 
 .crew__ava-img {
   width: 160px;
@@ -19,9 +50,49 @@ ul {
 
 }
 
+.crew__name {
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.crew__prof {
+  color: #1c5bc3;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.crew__text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* Footer */
 
 .footer {
   background-color: #1c5bc3;
+}
+
+.footer__text {
+  width: 235px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer__text_ls, .footer__text-author {
+  font-weight: 700;
+}
+
+.footer__text_ls {
+  text-decoration: underline;
+}
+
+.socials__title {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .socials__item {
