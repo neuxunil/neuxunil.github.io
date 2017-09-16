@@ -53,7 +53,28 @@ a {
   list-style-image: url(../img/sidebar/feed-icon.png);
 }
 
-/* ______Content______ */
+/* ______Breadcrumbs______ */
+
+.breadcrumbs__item:first-child {
+  color: #1c5bc3;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.breadcrumbs__item:last-child:before {
+  content: "/"
+}
+
+.breadcrumbs__item:last-child {
+  color: #221f1f;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* ______Crew______ */
 
 .crew__ava-img {
   width: 160px;
