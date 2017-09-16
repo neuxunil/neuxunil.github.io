@@ -1,4 +1,4 @@
-/* All page */
+/* _______All page________ */
 
 body {
 font-family: 'Roboto', sans-serif;
@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-/* Header */
+/* _______Header_______ */
 
 .header {
   background-color: #1c5bc3;
@@ -30,18 +30,30 @@ a {
   font-size: 14px;
 }
 
-/* Navigation */
+/* ______Navigation_______ */
 
-.nav__text {
+.nav__link {
   color: #1c5bc3;
   font-size: 12px;
   font-weight: 700;
   line-height: 54px;
   text-transform: uppercase;
-  letter-spacing: 2.4px
+  letter-spacing: 2.4px;
 }
 
-/* Content */
+.nav__item:nth-child(1) {
+  list-style-image: url(../img/sidebar/main-icon.png);
+}
+
+.nav__item:nth-child(2) {
+  list-style-image: url(../img/sidebar/team-icon.png);
+}
+
+.nav__item:nth-child(3) {
+  list-style-image: url(../img/sidebar/feed-icon.png);
+}
+
+/* ______Content______ */
 
 .crew__ava-img {
   width: 160px;
@@ -67,7 +79,7 @@ a {
   font-weight: 300;
 }
 
-/* Footer */
+/* ______Footer_______ */
 
 .footer {
   background-color: #1c5bc3;
