@@ -61,8 +61,12 @@ a {
   font-style: italic;
 }
 
+.breadcrumbs__item:first-child {
+  text-decoration: underline;
+}
+
 .breadcrumbs__item:last-child:before {
-  content: "/"
+  content: "/";
 }
 
 /* ______Crew______ */
