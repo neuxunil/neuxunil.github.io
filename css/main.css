@@ -1,10 +1,18 @@
-/* Index.html */
+/* Index page */
 
 /* Main page */
 
 /* Crew page */
 
+body {
+font-family: 'Roboto', sans-serif;
+}
+
 .header {
+  background-color: #1c5bc3;
+}
+
+.footer {
   background-color: #1c5bc3;
 }
 
