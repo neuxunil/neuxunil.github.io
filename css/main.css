@@ -1,6 +1,6 @@
 .image {
-  max-width: 100%;
-  background: url("./img/airplanet.jpg");
+  display: inline-block;
+  width: 400px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,4 +9,8 @@
 
 .image:hover {
   border: 1px solid black;
+}
+
+a {
+  display: inline-block;
 }
